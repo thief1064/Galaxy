@@ -14,7 +14,7 @@ Module Main
         Dim objBadFleet As New Fleet("CKL")
 
         objGoodFleet.Label = "Kampfgeschwader TRO"
-        objBadFleet.Label = "Terrorgruppe CKL"
+        objBadFleet.Label = "Terrorgruppe CKL nenn mich noch einmal CKL"
 
         For intI = 0 To 50 Step 1
             objGoodFleet.Ships.Add(New Destroyer)
