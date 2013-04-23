@@ -13,12 +13,12 @@ Module Main
         Dim objGoodFleet As New Fleet("TRO")
         Dim objBadFleet As New Fleet("CKL")
 
-
         objGoodFleet.Label = "Kampfgeschwader TRO"
         objBadFleet.Label = "Terrorgruppe CKL"
 
-        For intI = 0 To 30 Step 1
+        For intI = 0 To 50 Step 1
             objGoodFleet.Ships.Add(New Destroyer)
+            objGoodFleet.Ships.Add(New Cruiser)
             objBadFleet.Ships.Add(New Battleship)
         Next
 
