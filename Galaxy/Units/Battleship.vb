@@ -3,7 +3,7 @@
 
     Public Sub New()
         With Me
-            .Name = "Schlachtschiff1"
+            .Name = "Schlachtschiff"
             .HullMax = 600
             .ShieldMax = 900
             .Hull = 600
