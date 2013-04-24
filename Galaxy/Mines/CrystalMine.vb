@@ -20,8 +20,12 @@
         End Set
     End Property
 
-    Sub Upgrade()
+    Public Sub Upgrade()
         Me.Level += 1
+    End Sub
+
+    Public Sub Downgrade()
+        Me.Level -= 1
     End Sub
 
 End Class
