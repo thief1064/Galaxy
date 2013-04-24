@@ -50,7 +50,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Helper1064">
-      <HintPath>..\..\Klassen\Helper1064\Helper1064\bin\Debug\Helper1064.dll</HintPath>
+      <HintPath>Libs\Helper1064.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
