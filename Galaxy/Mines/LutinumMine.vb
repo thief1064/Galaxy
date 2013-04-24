@@ -1,15 +1,15 @@
-﻿Public Class MetalMine
+﻿Public Class LutinumMine
 
     Public Sub New()
     End Sub
 
-    Private _Level As Integer = 1
+    Private _intLevel As Integer = 1
     Public Property Level() As Integer
         Get
-            Return _Level
+            Return _intLevel
         End Get
         Set(ByVal value As Integer)
-            _Level = value
+            _intLevel = value
         End Set
     End Property
 

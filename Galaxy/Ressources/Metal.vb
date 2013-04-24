@@ -1,21 +1,22 @@
-﻿Public Class Crystal
-    Private _Amount As Long = 1000
+﻿Public Class Metal
+   
+    Private _lngAmount As Long
     Public Property Amount() As Long
         Get
-            Return _Amount
+            Return _lngAmount
         End Get
         Set(ByVal value As Long)
-            _Amount = value
+            _lngAmount = value
         End Set
     End Property
 
-    Private _MiningSpeed As Integer = 0
-    Public Property MiningSpeed() As Integer
+    Private _intDegradationRate As Integer = 0
+    Public Property DegradationRate() As Integer
         Get
-            Return _MiningSpeed
+            Return _intDegradationRate
         End Get
         Set(ByVal value As Integer)
-            _MiningSpeed = value
+            _intDegradationRate = value
         End Set
     End Property
 
@@ -25,4 +26,5 @@
 
     Public Sub New()
     End Sub
+
 End Class

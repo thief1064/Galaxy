@@ -10,8 +10,8 @@
     <ProjectGuid>{33202207-EDDD-488A-BE9A-7BF5C86B99AD}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <StartupObject>Sub Main</StartupObject>
-    <RootNamespace>ConsoleApplication2</RootNamespace>
-    <AssemblyName>ConsoleApplication2</AssemblyName>
+    <RootNamespace>Galaxy</RootNamespace>
+    <AssemblyName>Galaxy</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>Console</MyType>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
@@ -23,7 +23,7 @@
     <DefineDebug>true</DefineDebug>
     <DefineTrace>true</DefineTrace>
     <OutputPath>bin\Debug\</OutputPath>
-    <DocumentationFile>ConsoleApplication2.xml</DocumentationFile>
+    <DocumentationFile>Galaxy.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
@@ -33,7 +33,7 @@
     <DefineTrace>true</DefineTrace>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
-    <DocumentationFile>ConsoleApplication2.xml</DocumentationFile>
+    <DocumentationFile>Galaxy.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup>
@@ -75,14 +75,14 @@
   <ItemGroup>
     <Compile Include="FleetControl\Fleet.vb" />
     <Compile Include="Main.vb" />
-    <Compile Include="Mines\clsCrystalMine.vb" />
-    <Compile Include="Mines\clsLutinumMine.vb" />
-    <Compile Include="Mines\clsMetalMine.vb" />
-    <Compile Include="PlayerControl\clsPlayer.vb" />
-    <Compile Include="Ressources\clsCrystal.vb" />
-    <Compile Include="Ressources\clsLutinum.vb" />
-    <Compile Include="Ressources\clsMetal.vb" />
-    <Compile Include="Ressources\clsRessources.vb" />
+    <Compile Include="Mines\CrystalMine.vb" />
+    <Compile Include="Mines\LutinumMine.vb" />
+    <Compile Include="Mines\MetalMine.vb" />
+    <Compile Include="PlayerControl\Player.vb" />
+    <Compile Include="Ressources\Crystal.vb" />
+    <Compile Include="Ressources\Lutinum.vb" />
+    <Compile Include="Ressources\Metal.vb" />
+    <Compile Include="Ressources\Ressources.vb" />
     <Compile Include="Simulator.Designer.vb">
       <DependentUpon>Simulator.vb</DependentUpon>
     </Compile>

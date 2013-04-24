@@ -6,33 +6,33 @@
         Me.Lutinum = New Lutinum
     End Sub
 
-    Private _Metal As Metal
+    Private _objMetal As Metal
     Public Property Metal() As Metal
         Get
-            Return _Metal
+            Return _objMetal
         End Get
         Set(ByVal value As Metal)
-            _Metal = value
+            _objMetal = value
         End Set
     End Property
 
-    Private _Crystal As Crystal
+    Private _objCrystal As Crystal
     Public Property Crystal() As Crystal
         Get
-            Return _Crystal
+            Return _objCrystal
         End Get
         Set(ByVal value As Crystal)
-            _Crystal = value
+            _objCrystal = value
         End Set
     End Property
 
-    Private _Lutinum As Lutinum
+    Private _objLutinum As Lutinum
     Public Property Lutinum() As Lutinum
         Get
-            Return _Lutinum
+            Return _objLutinum
         End Get
         Set(ByVal value As Lutinum)
-            _Lutinum = value
+            _objLutinum = value
         End Set
     End Property
 
