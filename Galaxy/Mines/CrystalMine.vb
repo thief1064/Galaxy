@@ -25,3 +25,11 @@
     End Sub
 
 End Class
+
+Class TRO
+
+    Function Work() As Object
+        Return Nothing
+    End Function
+
+End Class
