@@ -75,6 +75,14 @@
   <ItemGroup>
     <Compile Include="FleetControl\Fleet.vb" />
     <Compile Include="Main.vb" />
+    <Compile Include="Mines\clsCrystalMine.vb" />
+    <Compile Include="Mines\clsLutinumMine.vb" />
+    <Compile Include="Mines\clsMetalMine.vb" />
+    <Compile Include="PlayerControl\clsPlayer.vb" />
+    <Compile Include="Ressources\clsCrystal.vb" />
+    <Compile Include="Ressources\clsLutinum.vb" />
+    <Compile Include="Ressources\clsMetal.vb" />
+    <Compile Include="Ressources\clsRessources.vb" />
     <Compile Include="Simulator.Designer.vb">
       <DependentUpon>Simulator.vb</DependentUpon>
     </Compile>
