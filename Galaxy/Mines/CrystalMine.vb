@@ -30,10 +30,3 @@
 
 End Class
 
-Class TRO
-
-    Function Work_B() As Object
-        Return Nothing
-    End Function
-
-End Class
