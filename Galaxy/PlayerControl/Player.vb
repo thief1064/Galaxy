@@ -1,4 +1,4 @@
-Imports System.Windows.Forms
+﻿Imports System.Windows.Forms
 
 Public Class Player
 
@@ -30,7 +30,6 @@ Public Class Player
         MetalMine
         CrystalMine
         LutinumMine
-        test123
     End Enum
 
     Private _objMetalMine As MetalMine
